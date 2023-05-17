@@ -4,5 +4,5 @@
 # <코드리뷰>
 1. Favorite, Like 모델에 'data' 필드를 추가하면 클릭 시간 알 수 있으니 좋을 것!
 2. Like 모델에 self.blog.title 에서 blog => post로 수정할 것 
-3. post가 여러 category에 속하려면 ManyToManyField 사용할것 추천1
+3. post가 여러 category에 속하려면 ManyToManyField 사용할것 추천!
 4. Category모델 안의 post필드에서 ForeignKey 필드에서는 max_length 옵션을 사용할 수 없ㅇ, 아마 max_length는 CharField나 TextField에서만 사용 가능. 
